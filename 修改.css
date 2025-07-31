@@ -425,7 +425,6 @@ body {
 .center-topic1 .example {
     width: 550px;
     height: 160px;
-    background-color: green;
     display: flex;
     flex-direction: column;
     padding-left: 20px;
@@ -466,6 +465,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     padding-left: 16px;
+    box-shadow: 0px 1px 0px 0px rgba(35, 38, 43, 1);
 }
 
 .line2 .First {
@@ -563,6 +563,34 @@ body {
     opacity: 1;
 }
 
+.line2 .Fifth {
+    width: 110px;
+    height: 20px;
+    display: flex;
+    gap: 5px;
+    margin-left: 30px;
+}
+
+.line2 .Fifth .btn1 {
+    border: 1px solid;
+    width: 49px;
+    height: 18px;
+    border-radius: 20px;
+    border-width: 1px;
+    background: rgba(25, 25, 28, 1);
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.line2 .Fifth .btn2 {
+    width: 54px;
+    height: 18px;
+    opacity: 1;
+    border-radius: 20px;
+    background: rgba(255, 111, 67, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
 .center-topic2 .vertical-line2 {
     width: 2px;
     height: 20px;
@@ -570,3 +598,593 @@ body {
     background: rgba(255, 111, 67, 1);
     margin-top: 20px;
 }
+
+.center-topic2 .account2 {
+    width: 550px;
+    height: 70px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+.account2 .line1 {
+    width: 500px;
+    height: 18px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 135px;
+}
+
+.account2 .line1 span {
+    font-family: Gravity;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: rgba(109, 111, 118, 1);
+}
+
+.account2 .line1 .last {
+    margin-left: 12px;
+}
+
+.account2 .line2 {
+    width: 437px;
+    height: 30px;
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.account2 .line2 span {
+    font-family: Gilroy;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(255, 249, 243, 1);
+}
+
+.center-topic2 .example2 {
+    width: 550px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 48px;
+}
+
+.example2 .line1 {
+    width: 510px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+    align-items: center;
+    background-color: rgba(32, 32, 34, 1);
+    box-shadow: 0px 1px 0px 0px rgba(35, 38, 43, 1);
+    border-radius: 8px;
+    padding-left: 20px;
+}
+
+.example2 .line1 span {
+    font-family: Gravity;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: rgba(109, 111, 118, 1);
+}
+
+.example2 .line2 {
+    width: 510px;
+    height: 50px;
+    opacity: 1;
+    border-radius: 8px;
+    background: rgba(25, 25, 28, 1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 0px;
+    box-shadow: 0px 1px 0px 0px rgba(35, 38, 43, 1);
+}
+
+.example2 .line2 .First {
+    width: 64px;
+    height: 24px;
+    opacity: 1;
+    gap: 6px;
+}
+
+.example2 .line2 .Second {
+    width: 45px;
+    height: 32px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.example2 .line2 .Second .one {
+    font-family: Gravity;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+    text-transform: capitalize;
+    color: rgba(255, 249, 243, 1);
+}
+
+.example2 .line2 .Second .two {
+    font-family: Gravity;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+    text-transform: capitalize;
+    color: rgba(109, 111, 118, 1);
+}
+
+.example2 .line2 .Third {
+    width: 43px;
+    height: 17px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.example2 .line2 .Third .number {
+    font-family: Gravity;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: rgba(255, 111, 67, 1);
+    margin-left: 30px;
+}
+
+.example2 .line2 .Fourth {
+    width: 110px;
+    height: 20px;
+    display: flex;
+    gap: 5px;
+    margin-left: 30px;
+}
+
+.example2 .line2 .Fourth .btn1 {
+    border: 1px solid rgba(255, 255, 255, 1);
+    width: 49px;
+    height: 18px;
+    border-radius: 20px;
+    border-width: 1px;
+    background: rgba(25, 25, 28, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.example2 .line2 .Fourth .btn2 {
+    width: 54px;
+    height: 18px;
+    opacity: 1;
+    border-radius: 20px;
+    background: rgba(255, 111, 67, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.bottom-topic {
+    width: 197px;
+    height: 29px;
+    opacity: 1;
+    margin-top: 20px;
+}
+
+.bottom-topic span {
+    font-family: Gravity;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: rgba(255, 249, 243, 1);
+}
+
+.Message {
+    width: 1120px;
+    height: 64px;
+    opacity: 1;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    box-shadow: 0px 0px 0px 1px rgba(35, 38, 43, 1);
+    border-radius: 8px;
+    background: rgba(25, 25, 28, 1);
+
+}
+
+.Message span {
+    font-family: Gravity;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: rgba(109, 111, 118, 1);
+}
+
+.Second {
+    margin-left: 158px;
+}
+
+.Third {
+    margin-left: 148px;
+}
+
+.Fourth {
+    margin-left: 215px;
+}
+
+.User1 {
+    width: 1120px;
+    height: 80px;
+    opacity: 1;
+    top: 822px;
+    left: 140px;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    box-shadow: 0px 0px 0px 1px rgba(35, 38, 43, 1);
+}
+
+.User1 .HEAD img {
+    height: 30px;
+    width: auto;
+}
+
+.User1 .Balance {
+    font-family: Gravity;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+    text-transform: capitalize;
+    color: rgba(255, 249, 243, 1);
+    margin-left: 122px;
+}
+
+.APY {
+    width: 120px;
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 225px;
+}
+
+.APY .one {
+    font-family: Gravity;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+    text-transform: capitalize;
+    color: rgba(255, 111, 67, 1);
+}
+
+.APY .two {
+    font-family: Gravity;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+    text-transform: capitalize;
+    color: rgba(109, 111, 118, 1);
+}
+
+.Total {
+    width: 120px;
+    height: 20px;
+    color: rgba(255, 249, 243, 1);
+    margin-left: 122px;
+}
+
+.Total span {
+    font-family: Gravity;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+    text-transform: capitalize;
+    color: rgba(255, 249, 243, 1);
+}
+
+.details {
+    width: 180px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin-left: 50px;
+}
+
+.details button {
+    width: 80px;
+    height: 25px;
+    opacity: 1;
+    border-radius: 20px;
+    border-width: 1px;
+    font-family: Gravity;
+    color: rgba(255, 249, 243, 1);
+}
+
+.bn1 {
+    background: rgba(255, 111, 67, 1);
+}
+
+.bn2 {
+    background: rgba(18, 19, 21, 1);
+}
+
+.User2 {
+    width: 1120px;
+    height: 80px;
+    opacity: 1;
+    top: 822px;
+    left: 140px;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    box-shadow: 0px 0px 0px 1px rgba(35, 38, 43, 1);
+    background: rgba(25, 25, 28, 1);
+}
+
+.User2 .HEAD img {
+    height: 30px;
+    width: auto;
+}
+
+.User2 .Balance {
+    font-family: Gravity;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+    text-transform: capitalize;
+    color: rgba(255, 249, 243, 1);
+    margin-left: 122px;
+}
+
+.User3 {
+    width: 1120px;
+    height: 80px;
+    opacity: 1;
+    top: 822px;
+    left: 140px;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    box-shadow: 0px 0px 0px 1px rgba(35, 38, 43, 1);
+}
+
+.User3 .HEAD img {
+    height: 30px;
+    width: auto;
+}
+
+.User3 .Balance {
+    font-family: Gravity;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+    text-transform: capitalize;
+    color: rgba(255, 249, 243, 1);
+    margin-left: 122px;
+}
+
+.User4 {
+    width: 1120px;
+    height: 80px;
+    opacity: 1;
+    top: 822px;
+    left: 140px;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    box-shadow: 0px 0px 0px 1px rgba(35, 38, 43, 1);
+    background: rgba(25, 25, 28, 1);
+}
+
+.User4 .HEAD img {
+    height: 30px;
+    width: auto;
+}
+
+.User4 .Balance {
+    font-family: Gravity;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+    text-transform: capitalize;
+    color: rgba(255, 249, 243, 1);
+    margin-left: 122px;
+}
+
+.User5 {
+    width: 1120px;
+    height: 80px;
+    opacity: 1;
+    top: 822px;
+    left: 140px;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    box-shadow: 0px 0px 0px 1px rgba(35, 38, 43, 1);
+}
+
+.User5 .HEAD img {
+    height: 30px;
+    width: auto;
+}
+
+.User5 .Balance {
+    font-family: Gravity;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+    text-transform: capitalize;
+    color: rgba(255, 249, 243, 1);
+    margin-left: 122px;
+}
+
+.center-topic3 {
+    width: 500px;
+    height: 647px;
+    margin-left: 1140px;
+    margin-top: -810px;
+    padding-top: 20px;
+    opacity: 1;
+    border-radius: 8px;
+    background: rgba(25, 25, 28, 1);
+}
+
+.center-topic3 .Firstline {
+    width: 500px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.center-topic3 .Firstline .vertical-line3 {
+    width: 2px;
+    height: 20px;
+    opacity: 1;
+    background: rgba(255, 111, 67, 1);
+}
+
+.center-topic3 .Firstline .topic4 {
+    width: 500px;
+    height: 19px;
+    opacity: 1;
+}
+
+.topic4 .zi {
+    color: rgba(255, 249, 243, 1);
+    margin-left: 18px;
+}
+
+.center-topic3 .Secondline {
+    width: 460px;
+    height: 64px;
+    opacity: 1;
+    border-radius: 8px;
+    border-width: 1px;
+    margin-top: 40px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    background: rgba(32, 32, 34, 1);
+}
+
+.Secondline .neirong {
+    width: 145px;
+    height: 19px;
+    opacity: 1;
+}
+
+.neirong span {
+    font-family: Gravity;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: rgba(255, 249, 243, 1);
+}
+
+.Secondline .nr {
+    margin-left: 187px;
+}
+
+.Secondline .nr button {
+    width: 96px;
+    height: 34px;
+    opacity: 1;
+    border-radius: 20px;
+    background: rgba(255, 111, 67, 1);
+    color: rgba(255, 249, 243, 1);
+    ;
+}
+
+.center-topic3 .Thirdline {
+    width: 80px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 30px;
+    gap: 6px;
+}
+
+.Thirdline .Amount {
+    font-family: Gravity;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: rgba(255, 249, 243, 1);
+}
+
+.Thirdline img {
+    width: 16px;
+    height: 16px;
+}
+
+.center-topic3 .Fourthline {
+    width: 460px;
+    height: 110px;
+    border-radius: 8px;
+    opacity: 1;
+    border-width: 1px;
+    background: rgba(32, 32, 34, 1);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
